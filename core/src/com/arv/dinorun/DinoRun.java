@@ -47,7 +47,7 @@ public class DinoRun extends ApplicationAdapter {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		background = new Texture("bg.png");
+		background = new Texture("background.jpg");
 		man = new Texture[4];
 		man[0] = new Texture("frame-1.png");
 		man[1] = new Texture("frame-2.png");
